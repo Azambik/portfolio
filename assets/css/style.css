@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     
+    
 }
 .link{
     font-weight: bold;
@@ -38,25 +39,129 @@ header nav ul li a {
 .hero{
     background-image: url("../images/hero.jpg");
     height: 300px;
+    padding:20px 0 0 0;
 }
 .a-me{
     display: flex;
     background-color: var(--primary-color);
     color: var(--text-h-color);
     justify-content:space-between;
-}
-.a-me div{
+    height:auto;
+    min-height: 100%;
+    flex-wrap: wrap;
+    
+}   
+.am-div h2{
+    padding: 50px;
+}     
+    
+
+.am-text{
     padding: 20px;
+    margin: 0 400px;
+    text-indent: 50px;
+    max-width: 50%;
+    align-items: center;
+    position: relative;
+
+    
+    
 }
 .m-work{
-    display: flex;
-    background-color: var(--primary-color);
-    color: var(--text-h-color);
-    justify-content:space-between;
-}
-.contact{
     display: flex;
     background-color: var(--bottomcolor);
     color: var(--text-h-color);
     justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 300px; 
+    
+}
+.m-work h2{
+    padding: 50px;
+}
+.img-box .run-budy{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--text-h-color);
+    justify-content:space-betweecentern;
+
+    
+}
+.contact h2{
+    padding: 50px;
+    
+}
+.img,
+.me{
+    
+    width:200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    border: solid 5px white;
+    
+}
+
+/*.works h3{
+    color: var(--bottomcolor);
+    width: 100%;
+    height:100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 168px;  
+}*/
+.txt h3 a{
+ color: var(--text-h-color)
+}
+.run-budy{
+    background-image: url("../images/run-buddy.bmp");
+    /*margin: 0 10px 0 0;*/  
+}
+.horiseon{
+    background-image: url("../images/horiseon.bmp");
+}
+.me{
+    background-image: url("../images/me.jpg");
+}
+.my-info a,
+.linkedin a,
+.git a{
+    color: var(--text-h-color);
+}
+.contact h2{
+    color: var(--text-h-color);
+}
+.txt{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+header nav ul li a:hover {
+    background: black;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none;
+}
+.txt h3 a:hover{
+    background: var(--primary-color);
+    
+    border-radius: 15px;
+    text-shadow: none; 
+}
+.contact-h:hover{
+    background: black;
+    color: white;
+    border-radius: 15px;
+    text-shadow: none; 
+}
+.contact-info{
+    width: 50%;
+    margin: 10px 160px auto;
+    text-align: center;
 }
