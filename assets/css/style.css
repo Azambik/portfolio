@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #00008b;
+    --text-h-color: #ffffff;
+    --bottomcolor: #000000;
+}
+header{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.link{
+    font-weight: bold;
+    color: white;
+}
+header nav{
+    margin: 7px 0;
+    
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 24px;
+    color: var(--text-h-color);
+}
+/*setting up a hero section to add some style to the page*/
+.hero{
+    background-image: url("../images/hero.jpg");
+    height: 300px;
+}
+.a-me{
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--text-h-color);
+    justify-content:space-between;
+}
+.a-me div{
+    padding: 20px;
+}
+.m-work{
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--text-h-color);
+    justify-content:space-between;
+}
+.contact{
+    display: flex;
+    background-color: var(--bottomcolor);
+    color: var(--text-h-color);
+    justify-content:space-between;
+}
